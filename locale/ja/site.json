@@ -51,6 +51,10 @@
         "trademark": {
             "link": "about/trademark",
             "text": "トレードマーク"
+        },
+        "privacy": {
+            "link": "about/privacy",
+            "text": "プライバシーポリシー"
         }
     },
     "download": {
@@ -107,11 +111,11 @@
         },
         "board": {
             "link": "foundation/board",
-            "text": "運営委員会"
+            "text": "理事会"
         },
         "tsc": {
             "link": "foundation/tsc",
-            "text": "技術委員会"
+            "text": "TSC"
         },
         "itn": {
              "link": "foundation/in-the-news",
@@ -120,6 +124,14 @@
         "announce": {
             "link": "foundation/announcements",
             "text": "お知らせ"
+        },
+        "education": {
+            "link": "foundation/education",
+            "text": "教育活動"
+        },
+        "outreachy": {
+            "link": "foundation/outreachy",
+            "text": "アウトリーチ + Node.js"
         }
     },
     "getinvolved": {
