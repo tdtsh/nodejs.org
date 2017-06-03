@@ -14,8 +14,7 @@ The Node.js Foundation's mission is to enable widespread adoption and help accel
 
 # Node.js財団
 
-Node.js財団の使命は、Node.jsの成功を共に目指すエコシステムによる、活動への参加、技術貢献、および長期的な保守の枠組みを促進するオープンガバナンスモデルを通じて、Node.jsおよびその関連モジュールの開発を促進し、広く普及させることです。
-
+Node.js財団の使命は、Node.jsの成功を共に目指すエコシステムによる活動への参加、技術貢献、および長期的な保守の枠組みを促進するオープンガバナンスモデルを通じて、Node.jsおよびその関連モジュールの開発を促進し広く普及させることです。
 
 
 ## 概要
