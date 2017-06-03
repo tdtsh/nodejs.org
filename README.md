@@ -14,10 +14,10 @@ This repo's issues section has become the primary home for the Website WG's coor
 
 ## Contributing
 
-Please contribute! There are plenty of [good first contributions](https://github.com/nodejs/nodejs.org/labels/good%20first%20contribution) to do.
+Please contribute! There are plenty of [good first contributions](https://github.com/nodejs/nodejs.org/labels/good%20first%20contribution) to do. To get started, you have to [fork](https://github.com/nodejs/nodejs.org/fork) this repo to your own GitHub account first. Then open up a terminal on your machine and enter the following commands:
 
 ```bash
-$ git clone https://github.com/nodejs/nodejs.org.git
+$ git clone https://github.com/<your user name>/nodejs.org.git
 $ cd nodejs.org
 $ npm install
 $ npm start
@@ -26,6 +26,8 @@ $ npm start
 This will start the development server on http://localhost:8080/en/ and should reload automatically when you make changes but it's all just code and no code is perfect so sometimes you may need to restart it. :)
 
 Note: You'll need Node.js v4 or newer as the build system uses some native ES2015 features.
+
+If you want to submit a new feature or a bugfix, the best way is to create the changes in a separate branch, e.g.: `git checkout -b feature/mycoolfeature`. This will make it easier for you to submit a pull request and get your feature merged.
 
 ### Layout
 
@@ -46,6 +48,16 @@ Full set up is in https://github.com/nodejs/build/tree/master/setup/www minus se
 ## Governance and Current Members
 
 All of the Node.js Foundation websites, including this repo, are jointly governed by the **Website Working Group**. See [GOVERNANCE.md](./GOVERNANCE.md) to learn more about the group's structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
+
+### Content vs. Code
+
+The Website Working Group is primarily concerned with the code and overall structure of the website.
+
+The content of the website comes from a variety of working groups (Evangelism, Core, i18n, etc). 
+The Website WG defers to these WGs on matters of content and routinely adds collaborators from these
+working groups as they add and improve content on the website. In other words, the Website WG is not
+and *editorial* Working Group except when no other Working Group has taken responsibility for a
+content area.
 
 ### Website Working Group Members
 

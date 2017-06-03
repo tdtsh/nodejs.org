@@ -1,16 +1,16 @@
 {
     "title": "Node.js",
-    "author": "Node.js Foundation",
-    "url": "https://nodejs.org/en/",
-    "locale": "en",
-    "scrollToTop": "Scroll to top",
-    "reportNodeIssue": "Report Node.js issue",
-    "reportWebsiteIssue": "Report website issue",
-    "getHelpIssue": "Get Help",
-    "by": "by",
-    "all-downloads": "All download options",
-    "nightly": "Nightly builds",
-    "chakracore-nightly": "Node-ChakraCore Nightly builds",
+    "author": "Fundación de Node.js",
+    "url": "https://nodejs.org/gl/",
+    "locale": "gl",
+    "scrollToTop": "Volta ao principio",
+    "reportNodeIssue": "Informar dun problema con Node.js",
+    "reportWebsiteIssue": "Informar dun problema co sitio",
+    "getHelpIssue": "Obter axuda",
+    "by": "por",
+    "all-downloads": "Todas as opcións de descarga",
+    "nightly": "Versións Nightly",
+    "chakracore-nightly": "Versións Node-ChakraCore Nightly",
     "feeds": [
         {
             "link": "feed/blog.xml",
@@ -18,76 +18,72 @@
         },
         {
             "link": "feed/releases.xml",
-            "text": "Node.js Blog: Releases"
+            "text": "Node.js Blog: Versións"
         },
         {
             "link": "feed/vulnerability.xml",
-            "text": "Node.js Blog: Vulnerability Reports"
+            "text": "Node.js Blog: Informes de vulnerabilidade"
         },
         {
             "link": "feed/tsc-minutes.xml",
-            "text": "Node.js TSC meeting minutes"
+            "text": "Actas de reunións do TSC de Node.js"
         }
     ],
-    "home": { "text": "Home" },
+    "home": { "text": "Inicio" },
     "about": {
         "link": "about",
-        "text": "About",
+        "text": "Acerca de",
         "governance": {
             "link": "about/governance",
-            "text": "Governance"
+            "text": "Goberno"
         },
         "workinggroups": {
             "link": "about/working-groups",
-            "text": "Working Groups"
+            "text": "Grupos de traballo"
         },
         "releases": {
             "link": "about/releases",
-            "text": "Releases"
+            "text": "Versións"
         },
         "resources": {
             "link": "about/resources",
-            "text": "Resources"
+            "text": "Recursos"
         },
         "trademark": {
             "link": "about/trademark",
-            "text": "Trademark"
+            "text": "Marca"
         },
         "privacy": {
             "link": "about/privacy",
-            "text": "Privacy Policy"
+            "text": "Política de Privacidade"
         }
     },
     "download": {
         "link": "download",
-        "text": "Downloads",
+        "text": "Descargas",
         "releases": {
             "link": "download/releases",
-            "text": "Previous Releases"
+            "text": "Versións anteriores"
         },
         "package-manager": {
             "link": "download/package-manager",
-            "text": "Installing Node.js via package manager"
+            "text": "Instalar Node.js usando un xestor de paquetes"
         },
         "shasums":{
           "link": "SHASUMS256.txt.asc",
-          "text": "Signed SHASUMS for release files"
+          "text": "Firmas SHASUMS para os arquivos de versións"
         }
     },
     "docs": {
         "link": "docs",
-        "text": "Docs",
+        "text": "Documentación",
         "es6": {
             "link": "docs/es6",
-            "text": "ES6 and beyond"
+            "text": "ES6 e máis aló"
         },
         "faq": {
             "link": "docs/faq",
             "text": "FAQ"
-        },
-        "inspector": {
-            "link": "docs/inspector",
-            "text": "Inspector"
         },
         "api-lts": {
             "link": "/dist/latest-%ver-major%/docs/api",
@@ -100,39 +96,39 @@
         },
         "guides": {
             "link": "docs/guides",
-            "text": "Guides"
+            "text": "Guías"
         }
     },
     "foundation": {
         "link": "foundation",
-        "text": "Foundation",
+        "text": "Fundación",
         "casestudies": {
             "link": "foundation/case-studies",
-            "text": "Resources"
+            "text": "Recursos"
         },
         "members": {
             "link": "foundation/members",
-            "text": "Members"
+            "text": "Membros"
         },
         "board": {
             "link": "foundation/board",
-            "text": "Board"
+            "text": "Xunta"
         },
         "tsc": {
             "link": "foundation/tsc",
-            "text": "Technical Governance"
+            "text": "Goberno Técnico"
         },
         "itn": {
              "link": "foundation/in-the-news",
-             "text": "In the News"
+             "text": "Nas noticias"
         },
         "announce": {
             "link": "foundation/announcements",
-            "text": "Announcements"
+            "text": "Anuncios"
         },
         "education": {
             "link": "foundation/education",
-            "text": "Education Initiatives"
+            "text": "Iniciativas de Educación"
         },
         "outreachy": {
             "link": "foundation/outreachy",
@@ -141,38 +137,38 @@
     },
     "getinvolved": {
         "link": "get-involved",
-        "text": "Get Involved",
+        "text": "Participa",
         "code-and-learn": {
             "link": "get-involved/code-and-learn",
-            "text": "Code + Learn"
+            "text": "Programa e Aprende"
         },
         "contribute": {
             "link": "get-involved/contribute",
-            "text": "Contribute"
+            "text": "Contribúe"
         },
         "development": {
             "link": "get-involved/development",
-            "text": "Development"
+            "text": "Desenvolvemento"
         },
         "events": {
           "link": "get-involved/events",
-          "text": "Events"
+          "text": "Eventos"
         },
         "conduct": {
             "link": "https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct",
-            "text": "Conduct"
+            "text": "Comportamento"
         }
     },
-    "security"   : { "link": "security",        "text": "Security" },
-    "blog"       : { "link": "blog",            "text": "News" },
+    "security"   : { "link": "security",        "text": "Seguridade" },
+    "blog"       : { "link": "blog",            "text": "Noticias" },
 
     "releases": {
-        "title": "Release History",
-        "downloads": "Downloads"
+        "title": "Histórico de versións",
+        "downloads": "Descargas"
     },
     "links": {
         "pages": {
-            "changelog": "Changelog"
+            "changelog": "Cambios"
         }
     }
 }
