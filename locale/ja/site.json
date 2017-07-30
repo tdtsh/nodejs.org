@@ -10,6 +10,7 @@
     "by": "by",
     "all-downloads": "All download options",
     "nightly": "Nightly builds",
+    "chakracore-nightly": "Node-ChakraCore Nightly builds",
     "feeds": [
         {
             "link": "feed/blog.xml",
@@ -83,6 +84,10 @@
         "faq": {
             "link": "docs/faq",
             "text": "よくある質問"
+        },
+        "inspector": {
+            "link": "docs/inspector",
+            "text": "Inspector"
         },
         "api-lts": {
             "link": "/dist/latest-%ver-major%/docs/api",

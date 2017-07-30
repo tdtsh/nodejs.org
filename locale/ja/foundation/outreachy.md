@@ -178,4 +178,3 @@ There is a package called TensorFlow https://www.tensorflow.org/ and a Node.js p
 https://github.com/nikhilk/node-tensorflow
 
 The mentee should review and learn the node-tensorflow module to find what we can get from this. The goal of the project for the mentee would be to get familiar with the module and teach the mentoring team.
-

@@ -43,13 +43,16 @@ Individual membership costs [$100 a year, or $25 for students](https://identity.
 
 個人会員の会費は [年間100ドル、学生は25ドル](https://identity.linuxfoundation.org/user?destination=pid/99)です。ただし、Node.jsプロジェクト(すべてのワーキング・グループとサブプロジェクトを含む)へのコントリビューターは無料で会員資格を取得できます。割引コードについては [こちら](mailto:membership@nodejs.org) までお問い合わせください。なお、会員登録にはGitHubアカウントが必要です。
 
+### 個人会員であることのメリットは何ですか？
+ - 上記の2名選出された個別会員取締役を通じて（間接的に）Node.js Foundation理事会において発言や投票をと発言の機会を得ます
+ - Node Interactive 2017への参加が通常価格の20％割引
 
 <!--
 # Corporate Members
 ## Platinum
 -->
 # 企業会員
-## プラチナ・レベル
+## プラチナ
 
 <div style="text-align:center;">
 <a target="_new" class="imagelink" href="http://ibm.com">
@@ -75,7 +78,7 @@ Individual membership costs [$100 a year, or $25 for students](https://identity.
 <!--
 ## Gold
 -->
-## ゴールド・レベル
+## ゴールド
 
 <div style="text-align:center;">
 <a target="_new" class="imagelink" href="//godaddy.com">
@@ -89,7 +92,7 @@ Individual membership costs [$100 a year, or $25 for students](https://identity.
 <!--
 ## Silver
 -->
-## シルバー・レベル
+## シルバー
 
 <div style="text-align:center;">
 <a target="_new" class="imagelink" href="http://cars.com">
