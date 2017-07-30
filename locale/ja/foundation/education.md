@@ -152,6 +152,7 @@ Node.js財団は（Linux財団と提携して）、Node.js認証制度の開始�
 
 <!--
 Work may be organized into committees or subcommittees representing, but not limited to the following:
+
 - Job Analysis Committee - define the Domains of work and corresponding Tasks within each domain a Certification Candidate should be able to perform
 - Item Writing Committee-writing/developing the individual item tasks into problems for the exam.
 - Standard Setting Committee-will set the passing/cut score. This process is led by the psychometrician. Aggregation of scores weighted by the committee.

@@ -33,9 +33,9 @@ Node.js財団の使命は、Node.jsの成功を共に目指すエコシステム
             target="_blank">
             Node.js 財団メンバーシップの概要 2015-05-05
         </a>
-        </strong> / <strong>
+    </strong> / <strong>
         <a href="//www.slideshare.net/NodejsFoundation" target="_blank">
-            Node.js 財団 
+            Node.js 財団
         </a>
     </strong>
 </div>
@@ -65,5 +65,3 @@ Node.js財団の使命は、Node.jsの成功を共に目指すエコシステム
 ## お問い合わせ
 
 Node.js&reg; 商標の使用に関するお問合せは、電子メール [trademark@nodejs.org](mailto:trademark@nodejs.org?subject=Trademark) にて。
-
-
