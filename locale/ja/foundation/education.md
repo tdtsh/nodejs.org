@@ -1,5 +1,5 @@
 ---
-title: 教育への取組み
+title: 教育活動
 layout: foundation.hbs
 newsletter:
   title: Subscribe to get updates and give input for education initiatives
@@ -193,5 +193,5 @@ email to [tracyhinds@linuxfoundation.org](mailto:tracyhinds@linuxfoundation.org?
 
 ##お問い合わせ
 
-教育への取り組みに関する質問や、ご意見は、Eメール ([tracyhinds@linuxfoundation.org](mailto:tracyhinds@linuxfoundation.org?subject=Education-questions))にて。
+教育活動に関する質問や、ご意見は、Eメール ([tracyhinds@linuxfoundation.org](mailto:tracyhinds@linuxfoundation.org?subject=Education-questions))にて。
 

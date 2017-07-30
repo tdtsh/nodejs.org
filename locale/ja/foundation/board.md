@@ -1,5 +1,5 @@
 ---
-title: Node.js財団理事会
+title: 理事会
 layout: foundation.hbs
 ---
 

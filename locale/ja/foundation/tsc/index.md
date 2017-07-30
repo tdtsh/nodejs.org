@@ -1,5 +1,5 @@
 ---
-title: テクニカル・ステアリング・コミッティ
+title: TSC(技術運営委員会)
 layout: foundation.hbs
 ---
 <!--

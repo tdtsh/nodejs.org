@@ -1,4 +1,4 @@
 ---
-title: Node.js Foundation In the News
+title: ニュース
 layout: in-the-news.hbs
 ---

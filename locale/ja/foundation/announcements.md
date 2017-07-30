@@ -1,4 +1,4 @@
 ---
-title: Announcements
+title: お知らせ
 layout: announcements.hbs
 ---
