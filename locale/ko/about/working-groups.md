@@ -109,8 +109,6 @@ Core Working Groups are created by the
 * [Benchmarking](#benchmarking)
 * [Post-mortem](#post-mortem)
 * [Intl](#intl)
-* [Documentation](#documentation)
-* [Testing](#testing)
 -->
 
 ## 현재의 워킹 그룹
@@ -126,8 +124,6 @@ Core Working Groups are created by the
 * [Benchmarking](#benchmarking)
 * [Post-mortem](#post-mortem)
 * [Intl](#intl)
-* [Documentation](#documentation)
-* [Testing](#testing)
 
 <!--
 ### [Website](https://github.com/nodejs/nodejs.org)
@@ -303,7 +299,7 @@ Each language community maintains its own membership.
 * [nodejs-ja - Japanese (日本語)](https://github.com/nodejs/nodejs-ja)
 * [nodejs-ka - Georgian (ქართული)](https://github.com/nodejs/nodejs-ka)
 * [nodejs-ko - Korean (한국어)](https://github.com/nodejs/nodejs-ko)
-* [nodejs-mk - Macedonian (Mакедонски)](https://github.com/nodejs/nodejs-mk)
+* [nodejs-mk - Macedonian (Македонски)](https://github.com/nodejs/nodejs-mk)
 * [nodejs-ms - Malay (بهاس ملايو)](https://github.com/nodejs/nodejs-ms)
 * [nodejs-nl - Dutch (Nederlands)](https://github.com/nodejs/nodejs-nl)
 * [nodejs-no - Norwegian (Norsk)](https://github.com/nodejs/nodejs-no)
@@ -323,11 +319,11 @@ i18n 워킹 그룹은 [Intl](#Intl) 워킹 그룹과는 다릅니다.
 
 언어별 커뮤니티는 개별 권한을 가지고 운영되고 있습니다.
 
-* [nodejs-ar - Arabic (اللغة العربية)](https://github.com/nodejs/nodejs-ar)
-* [nodejs-bg - Bulgarian (български език)](https://github.com/nodejs/nodejs-bg)
+* [nodejs-ar - Arabic (العَرَبِيَّة)](https://github.com/nodejs/nodejs-ar)
+* [nodejs-bg - Bulgarian (български)](https://github.com/nodejs/nodejs-bg)
 * [nodejs-bn - Bengali (বাংলা)](https://github.com/nodejs/nodejs-bn)
 * [nodejs-zh-CN - Chinese (中文)](https://github.com/nodejs/nodejs-zh-CN)
-* [nodejs-cs - Czech (Český Jazyk)](https://github.com/nodejs/nodejs-cs)
+* [nodejs-cs - Czech (Čeština)](https://github.com/nodejs/nodejs-cs)
 * [nodejs-da - Danish (Dansk)](https://github.com/nodejs/nodejs-da)
 * [nodejs-de - German (Deutsch)](https://github.com/nodejs/nodejs-de)
 * [nodejs-el - Greek (Ελληνικά)](https://github.com/nodejs/nodejs-el)
@@ -336,15 +332,15 @@ i18n 워킹 그룹은 [Intl](#Intl) 워킹 그룹과는 다릅니다.
 * [nodejs-fi - Finnish (Suomi)](https://github.com/nodejs/nodejs-fi)
 * [nodejs-fr - French (Français)](https://github.com/nodejs/nodejs-fr)
 * [nodejs-he - Hebrew (עברית)](https://github.com/nodejs/nodejs-he)
-* [nodejs-hi - Hindi (फिजी बात)](https://github.com/nodejs/nodejs-hi)
+* [nodejs-hi - Hindi (हिन्दी)](https://github.com/nodejs/nodejs-hi)
 * [nodejs-hu - Hungarian (Magyar)](https://github.com/nodejs/nodejs-hu)
 * [nodejs-id - Indonesian (Bahasa Indonesia)](https://github.com/nodejs/nodejs-id)
 * [nodejs-it - Italian (Italiano)](https://github.com/nodejs/nodejs-it)
 * [nodejs-ja - Japanese (日本語)](https://github.com/nodejs/nodejs-ja)
 * [nodejs-ka - Georgian (ქართული)](https://github.com/nodejs/nodejs-ka)
 * [nodejs-ko - Korean (한국어)](https://github.com/nodejs/nodejs-ko)
-* [nodejs-mk - Macedonian (Mакедонски)](https://github.com/nodejs/nodejs-mk)
-* [nodejs-ms - Malay (بهاس ملايو)](https://github.com/nodejs/nodejs-ms)
+* [nodejs-mk - Macedonian (Македонски)](https://github.com/nodejs/nodejs-mk)
+* [nodejs-ms - Malay (بهاس ملايو‎)](https://github.com/nodejs/nodejs-ms)
 * [nodejs-nl - Dutch (Nederlands)](https://github.com/nodejs/nodejs-nl)
 * [nodejs-no - Norwegian (Norsk)](https://github.com/nodejs/nodejs-no)
 * [nodejs-pl - Polish (Język Polski)](https://github.com/nodejs/nodejs-pl)
@@ -354,9 +350,9 @@ i18n 워킹 그룹은 [Intl](#Intl) 워킹 그룹과는 다릅니다.
 * [nodejs-sv - Swedish (Svenska)](https://github.com/nodejs/nodejs-sv)
 * [nodejs-ta - Tamil (தமிழ்)](https://github.com/nodejs/nodejs-ta)
 * [nodejs-tr - Turkish (Türkçe)](https://github.com/nodejs/nodejs-tr)
-* [nodejs-zh-TW - Taiwanese (Hō-ló)](https://github.com/nodejs/nodejs-zh-TW)
+* [nodejs-zh-TW - Taiwanese (國語)](https://github.com/nodejs/nodejs-zh-TW)
 * [nodejs-uk - Ukrainian (Українська)](https://github.com/nodejs/nodejs-uk)
-* [nodejs-vi - Vietnamese (Tiếng Việtnam)](https://github.com/nodejs/nodejs-vi)
+* [nodejs-vi - Vietnamese (Tiếng Việt)](https://github.com/nodejs/nodejs-vi)
 
 <!--
 ### [Intl](https://github.com/nodejs/Intl)
@@ -535,54 +531,3 @@ Responsibilities include:
 이 워킹 그룹은 다음에 대한 책임이 있습니다.
 * 필요할 때 덤프를 생성할 수 있도록 인터페이스/API를 정의하고 추가합니다.
 * 이러한 덤프를 분석하는 도구를 지원하기 위해 생성된 덤프의 공통 구조를 정의하고 추가합니다.
-
-<!--
-### [Documentation](https://github.com/nodejs/docs)
-
-The Documentation Working Group exists to support the improvement of Node.js
-documentation, both in the core API documentation, and elsewhere, such as the
-Node.js website. Its intent is to work closely with the Evangelism, Website, and
-Intl Working Groups to make excellent documentation available and accessible
-to all.
-
-Responsibilities include:
-* Defining and maintaining documentation style and content standards.
-* Producing documentation in a format acceptable for the Website Working Group
-  to consume.
-* Ensuring that Node's documentation addresses a wide variety of audiences.
-* Creating and operating a process for documentation review that produces
-  quality documentation and avoids impeding the progress of Core work.
--->
-
-### [Documentation](https://github.com/nodejs/docs)
-
-문서화 워킹 그룹은 코어 API 문서와 Node.js 웹사이트 같은 문서를 포함한 모든 Node.js 문서를 개선합니다. 모두가 뛰어난 문서를 사용할 수 있도록 Evangelism, Website, Intl 워킹 그룹과 밀접하게 작업합니다.
-
-이 워킹 그룹은 다음에 대한 책임이 있습니다.
-* 문서 형식과 콘텐츠 표준을 정의하고 관리합니다.
-* Website 워킹그룹이 받아들일 수 있는 형식으로 문서를 작성합니다.
-* Node의 문서가 다양한 사용자를 지원할 수 있도록 합니다.
-* 핵심 작업 절차를 방해하지 않고 질 좋은 문서를 만들기 위해 문서 리뷰과정을 만들고 운영합니다.
-
-<!--
-### [Testing](https://github.com/nodejs/testing)
-
-The Node.js Testing Working Group's purpose is to extend and improve testing of
-the Node.js source code.
-
-Responsibilities include:
-* Coordinating an overall strategy for improving testing.
-* Documenting guidelines around tests.
-* Working with the Build Working Group to improve continuous integration.
-* Improving tooling for testing.
--->
-
-### [Testing](https://github.com/nodejs/testing)
-
-Node.js 테스팅 워킹 그룹은 Node.js 소스 코드의 테스트를 확장하고 개선합니다.
-
-이 워킹 그룹은 다음에 대한 책임이 있습니다.
-* 테스트를 개선하는 전반적인 전략을 조정합니다.
-* 테스트와 관련된 가이드라인을 문서로 만듭니다.
-* 지속적인 통합을 개선하기 위해 Build 워킹 그룹과 협업합니다.
-* 테스트 도구를 개선합니다.

@@ -2,21 +2,21 @@
 title: Node.js Foundation Resources
 layout: foundation.hbs
 ---
+## Node.js Foundation 2017 Survey Results
 
-## Node.js Foundation Survey Results
+The primary objective of the research was to profile Node.js users, understand usage patterns and trends and identify potential areas of improvement. With over 8 million Node.js instances online, three in four users are planning to increase their use of Node.js in the next 12 months. Many are learning Node.js in a foreign language with China being the second largest population outside of the U.S. using Node. Want to get a better understanding on how people are using and learning Node.js?
 
-With over 3.5 million users and an annual growth rate of 100 percent, Node.js
-is emerging as a universal platform used for web applications, IoT, and
-enterprise. The Node.js User Survey report features insights on emerging trends
-happening in this massive community that serves as a leading indicator on
-trends like microservices architectures, real-time web applications, Internet
-of Things (IoT). The report paints a detailed picture of the technologies that
-are being used, in particular, with Node.js in production and language
-preferences (current and future) for front end, back end and IoT developers.
+* <a href="/static/documents/casestudies/Nodejs_2017_User_Survey_Exec_Summary.pdf" data-casestudy="Node.js Foundation 2017 Survey Results">Read the full report.</a>
 
-* [Read the full announcement.](/en/blog/announcements/nodejs-foundation-survey/)
-* [See the infographic.](/static/documents/2016-survey-infographic.png)
-* <a href="/static/documents/2016-survey-report.pdf" data-casestudy="Node.js 2016 Report">Read the full report.</a>
+## Forrester Report: Digital Transformation Using Node.js
+
+Forrester's November 2016 report details five common use cases around Node.js and how it can underpin digital transformation
+
+* [Read the full report here](https://reprints.forrester.com/#/assets/2/796/RES135952/reports)
+
+## On-demand Forrester Research Webinar on Digital Transformation
+
+Check out our recent webinar on Digital Transformation with Node.js featuring Mark Hinkle, Executive Director for the Node.js Foundation, and Rick Adams, Senior Manager -IT Solutions at Lowe's. [Watch Now](http://go.linuxfoundation.org/e/6342/tal-transformation-with-nodejs/3vwsts/807272559) or [Download the Slides](http://go.linuxfoundation.org/e/6342/ion-nodejs-slides-20170712-pdf/3vwstv/807272559)
 
 ## Presentation - The Enterprise Case for Node.js
 The Node.js Foundation has consolidated all the best thinking around why enterprises should consider Node.js for their systems of engagement in this short presentation.
@@ -62,6 +62,12 @@ interactive group.
 
 Enterprise conversations are short videos, recorded live, with large scale
 companies sharing their experiences with Node.js.
+
+## Node.js and Intel (Episode 13)
+
+Tracy Hinds and Mikeal Rogers chat with Monica Ene-Pietrosanu of Intel about how they use Node.js, and the company's efforts in contributing to open source technologies and diversity.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SBR6WcSIqBE" frameborder="0" allowfullscreen></iframe>
 
 ## Node.js and Google (Episode 12)
 

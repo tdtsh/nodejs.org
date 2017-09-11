@@ -27,7 +27,7 @@ Node.js Foundation відкритий для бізнесу та окремих 
   <img alt="Intel" class="memberlogo" src="/static/images/foundation/intelLogo.png" />
 </a>
 <a target="_new" class="imagelink" href="//joyent.com">
-  <img alt="Joyent" class="memberlogo" src="/static/images/foundation/joyentLogo.svg" />
+  <img alt="Joyent" class="memberlogo" src="/static/images/foundation/joyentLogo.png" />
 </a>
 <a target="_new" class="imagelink" href="//microsoft.com">
   <img alt="Microsoft" class="memberlogo" src="/static/images/foundation/microsoftLogo.png" />
@@ -87,17 +87,17 @@ Node.js Foundation відкритий для бізнесу та окремих 
 <a target="_new" class="imagelink" href="//saucelabs.com">
   <img alt="Saucelabs" class="memberlogo" src="/static/images/foundation/saucelabsLogo.png" />
 </a>
-<a target="_new" class="imagelink" href="//snyk.com">
+<a target="_new" class="imagelink" href="//snyk.io">
   <img alt="Snyk" class="memberlogo" src="/static/images/foundation/snyk.png" />
-</a>
-<a target="_new" class="imagelink" href="http://sphinx.sg/">
-  <img alt="Sphinx" class="memberlogo" src="/static/images/foundation/sphinx.png" />
 </a>
 <a target="_new" class="imagelink" href="//yahoo.com">
   <img alt="Yahoo!" class="memberlogo" src="/static/images/foundation/yahoo.png" />
 </a>
 <a target="_new" class="imagelink" href="//yld.io">
-  <img alt="yld!" class="memberlogo" src="/static/images/foundation/yldLogo.png" />
+  <img alt="yld" class="memberlogo" src="/static/images/foundation/yldLogo.png" />
+</a>
+<a target="_new" class="imagelink" href="https://safetyculture.com/">
+  <img alt="SafetyCulture" class="memberlogo" src="/static/images/foundation/safetycultureLogo.png" />
 </a>
 </div>
 

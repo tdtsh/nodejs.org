@@ -18,7 +18,7 @@ title: パッケージマネージャを利用した Node.js のインストー�
 * [Gentoo](#gentoo)
 * [NetBSD](#netbsd)
 * [openSUSE と SLE](#opensuse-sle)
-* [OSX](#osx)
+* [macOS](#macos)
 * [SmartOS と illumos](#smartos-illumos)
 * [Void Linux](#void-linux)
 * [Windows](#windows)
@@ -79,7 +79,6 @@ sudo apt-get install -y build-essential
 <!-- **Supported Ubuntu versions:** -->
 **サポートしている Ubuntu のバージョン:**
 
-* **Ubuntu 12.04 LTS** (Precise Pangolin)
 * **Ubuntu 14.04 LTS** (Trusty Tahr)
 * **Ubuntu 16.04 LTS** (Xenial Xerus)
 
@@ -102,7 +101,6 @@ The Node.js modules available in the distribution official repositories do not n
 <!-- **Supported Linux Mint versions:** -->
 **サポートしている Linux Mint のバージョン:**
 
-* **Linux Mint 13 "Maya"** (via Ubuntu 12.04 LTS)
 * **Linux Mint 17 "Qiana"** (via Ubuntu 14.04 LTS)
 * **Linux Mint 17.1 "Rebecca"** (via Ubuntu 14.04 LTS)
 * **Linux Mint 17.2 "Rafaela"** (via Ubuntu 14.04 LTS)
@@ -111,13 +109,11 @@ The Node.js modules available in the distribution official repositories do not n
 <!-- **Supported elementary OS versions:** -->
 **サポートしている elementary OS のバージョン:**
 
-* **elementary OS Luna** (via Ubuntu 12.04 LTS)
 * **elementary OS Freya** (via Ubuntu 14.04 LTS)
 
 <!-- **Supported Trisquel versions:** -->
 **サポートしている  Trisquel のバージョン:**
 
-* **Trisquel 6 "Toutatis"** (via Ubuntu 12.04 LTS)
 * **Trisquel 7 "Belenos"** (via Ubuntu 14.04 LTS)
 
 <!-- **Supported BOSS versions:** -->
@@ -352,7 +348,7 @@ sudo zypper in nodejs nodejs-devel
 ```
 
 
-## OSX
+## macOS
 
 <!-- Simply download the [Macintosh Installer](http://nodejs.org/#download) direct from the [nodejs.org](http://nodejs.org) web site. -->
 直接 [nodejs.org](http://nodejs.org) のサイトから [Macintosh Installer](http://nodejs.org/#download) をダウンロードしてください。

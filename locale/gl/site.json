@@ -11,6 +11,8 @@
     "all-downloads": "Todas as opcións de descarga",
     "nightly": "Versións Nightly",
     "chakracore-nightly": "Versións Node-ChakraCore Nightly",
+    "previous": "Anterior",
+    "next": "Seguinte",
     "feeds": [
         {
             "link": "feed/blog.xml",
@@ -81,10 +83,6 @@
             "link": "docs/es6",
             "text": "ES6 e máis aló"
         },
-        "faq": {
-            "link": "docs/faq",
-            "text": "FAQ"
-        },
         "api-lts": {
             "link": "/dist/latest-%ver-major%/docs/api",
             "subtext": "LTS",
@@ -149,10 +147,6 @@
         "development": {
             "link": "get-involved/development",
             "text": "Desenvolvemento"
-        },
-        "events": {
-          "link": "get-involved/events",
-          "text": "Eventos"
         },
         "conduct": {
             "link": "https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct",

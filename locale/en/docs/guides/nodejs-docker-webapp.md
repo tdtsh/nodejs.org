@@ -25,7 +25,7 @@ you load into a container.
 First, create a new directory where all the files would live. In this directory
 create a `package.json` file that describes your app and its dependencies:
 
-```javascript
+```json
 {
   "name": "docker_web_app",
   "version": "1.0.0",
@@ -51,15 +51,16 @@ const express = require('express');
 
 // Constants
 const PORT = 8080;
+const HOST = '0.0.0.0';
 
 // App
 const app = express();
-app.get('/', function (req, res) {
+app.get('/', (req, res) => {
   res.send('Hello world\n');
 });
 
-app.listen(PORT);
-console.log('Running on http://localhost:' + PORT);
+app.listen(PORT, HOST);
+console.log(`Running on http://${HOST}:${PORT}`);
 ```
 
 In the next steps, we'll look at how you can run this app inside a Docker
@@ -89,25 +90,34 @@ will be the working directory for your application:
 
 ```docker
 # Create app directory
-RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 ```
 
 This image comes with Node.js and NPM already installed so the next thing we
-need to do is to install your app dependencies using the `npm` binary:
+need to do is to install your app dependencies using the `npm` binary. Please
+note that if you are using `npm` version 5 or later you will also want to copy
+`package-lock.json`, which is generated once you run `npm install`:
 
 ```docker
 # Install app dependencies
-COPY package.json /usr/src/app/
+COPY package.json .
+# For npm@5 or later, copy package-lock.json as well
+# COPY package.json package-lock.json ./
+
 RUN npm install
 ```
+
+Note that, rather than copying the entire working directory, we are only copying
+the `package.json` file. This allows us to take advantage of cached Docker
+layers. bitJudo has a good explanation of this
+[here](http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/).
 
 To bundle your app's source code inside the Docker image, use the `COPY`
 instruction:
 
 ```docker
 # Bundle app source
-COPY . /usr/src/app
+COPY . .
 ```
 
 Your app binds to port `8080` so you'll use the `EXPOSE` instruction to have it
@@ -118,7 +128,7 @@ EXPOSE 8080
 ```
 
 Last but not least, define the command to run your app using `CMD` which defines
-your runtime. Here we will use the basic `npm start` which will run 
+your runtime. Here we will use the basic `npm start` which will run
 `node server.js` to start your server:
 
 ```docker
@@ -131,15 +141,17 @@ Your `Dockerfile` should now look like this:
 FROM node:boron
 
 # Create app directory
-RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Install app dependencies
-COPY package.json /usr/src/app/
+COPY package.json .
+# For npm@5 or later, copy package-lock.json as well
+# COPY package.json package-lock.json ./
+
 RUN npm install
 
 # Bundle app source
-COPY . /usr/src/app
+COPY . .
 
 EXPOSE 8080
 CMD [ "npm", "start" ]

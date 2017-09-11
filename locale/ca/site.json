@@ -11,6 +11,8 @@
   "all-downloads": "Totes les opcions de descàrrega",
   "nightly": "Versions Nightly",
   "chakracore-nightly": "Versions Node-ChakraCore Nightly",
+  "previous": "Précédent",
+  "next": "Prochain",
   "feeds": [{
       "link": "feed/blog.xml",
       "text": "Node.js Blog"
@@ -80,10 +82,6 @@
       "link": "docs/es6",
       "text": "ES6 i més enllà"
     },
-    "faq": {
-      "link": "docs/faq",
-      "text": "FAQ"
-    },
     "inspector": {
       "link": "docs/inspector",
       "text": "Inspector"
@@ -152,10 +150,6 @@
     "development": {
       "link": "get-involved/development",
       "text": "Desenvolupament"
-    },
-    "events": {
-      "link": "get-involved/events",
-      "text": "Esdeveniments"
     },
     "conduct": {
       "link": "https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct",

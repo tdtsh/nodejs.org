@@ -26,7 +26,6 @@ const filterStylusPartials = require('./scripts/plugins/filter-stylus-partials')
 const anchorMarkdownHeadings = require('./scripts/plugins/anchor-markdown-headings')
 const loadVersions = require('./scripts/load-versions')
 const latestVersion = require('./scripts/helpers/latestversion')
-const eventGeo = require('./scripts/event-geo.js')
 
 // Set the default language, also functions as a fallback for properties which
 // are not defined in the given language.
@@ -112,8 +111,7 @@ function buildLocale (source, locale) {
         refer: false
       },
       guides: {
-        pattern: 'docs/guides/!(index).md',
-        refer: false
+        pattern: 'docs/guides/!(index).md'
       }
     }))
     .use(pagination({
@@ -172,7 +170,21 @@ function buildLocale (source, locale) {
         strftime: require('./scripts/helpers/strftime.js'),
         apidocslink: require('./scripts/helpers/apidocslink.js'),
         majorapidocslink: require('./scripts/helpers/majorapidocslink.js'),
-        summary: require('./scripts/helpers/summary.js')
+        summary: require('./scripts/helpers/summary.js'),
+        json: function (context) {
+          return JSON.stringify(context)
+        },
+        getListJson: function (context) {
+          var result = context.map(function (item) {
+            return {
+              title: item.title,
+              date: item.date,
+              local: true,
+              path: item.path.replace(/\\/, '/')
+            }
+          })
+          return JSON.stringify(result)
+        }
       }
     }))
     // Pipes the generated files into their respective subdirectory in the build
@@ -254,7 +266,6 @@ function copyStatic () {
     fs.mkdir(path.join(__dirname, 'build', 'static'), () => {
       ncp(path.join(__dirname, 'static'), path.join(__dirname, 'build', 'static'), (err) => {
         if (err) { return console.error(err) }
-        fs.writeFileSync(path.join(__dirname, 'build', 'static', 'event-geo.json'), JSON.stringify(eventGeo()))
         console.timeEnd('[metalsmith] build/static finished')
       })
     })
@@ -272,8 +283,8 @@ function getSource (callback) {
           lts: latestVersion.lts(versions)
         },
         banner: {
-          visible: false,
-          content: ''
+          visible: true,
+          content: 'Important <a href="https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/">security releases</a>, please update now!'
         }
       }
     }
