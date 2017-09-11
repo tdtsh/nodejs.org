@@ -26,7 +26,6 @@ const filterStylusPartials = require('./scripts/plugins/filter-stylus-partials')
 const anchorMarkdownHeadings = require('./scripts/plugins/anchor-markdown-headings')
 const loadVersions = require('./scripts/load-versions')
 const latestVersion = require('./scripts/helpers/latestversion')
-const eventGeo = require('./scripts/event-geo.js')
 
 // Set the default language, also functions as a fallback for properties which
 // are not defined in the given language.
@@ -56,6 +55,7 @@ function i18nJSON (lang) {
 // Metalsmith build cycle used for building a locale subsite, such as the
 // english one.
 function buildLocale (source, locale) {
+  console.log(`[metalsmith] build/${locale} started`)
   console.time(`[metalsmith] build/${locale} finished`)
   const metalsmith = Metalsmith(__dirname)
   metalsmith
@@ -111,8 +111,7 @@ function buildLocale (source, locale) {
         refer: false
       },
       guides: {
-        pattern: 'docs/guides/!(index).md',
-        refer: false
+        pattern: 'docs/guides/!(index).md'
       }
     }))
     .use(pagination({
@@ -171,7 +170,21 @@ function buildLocale (source, locale) {
         strftime: require('./scripts/helpers/strftime.js'),
         apidocslink: require('./scripts/helpers/apidocslink.js'),
         majorapidocslink: require('./scripts/helpers/majorapidocslink.js'),
-        summary: require('./scripts/helpers/summary.js')
+        summary: require('./scripts/helpers/summary.js'),
+        json: function (context) {
+          return JSON.stringify(context)
+        },
+        getListJson: function (context) {
+          var result = context.map(function (item) {
+            return {
+              title: item.title,
+              date: item.date,
+              local: true,
+              path: item.path.replace(/\\/, '/')
+            }
+          })
+          return JSON.stringify(result)
+        }
       }
     }))
     // Pipes the generated files into their respective subdirectory in the build
@@ -205,7 +218,7 @@ function githubLinks (options) {
         return `<a class="edit-link" href="${url}">Edit on GitHub</a> <h1>${$2}</h1>`
       })
 
-      file.contents = new Buffer(contents)
+      file.contents = Buffer.from(contents)
     })
 
     next()
@@ -214,6 +227,7 @@ function githubLinks (options) {
 
 // This function builds the layouts folder for all the Stylus files.
 function buildLayouts () {
+  console.log('[metalsmith] build/layouts started')
   console.time('[metalsmith] build/layouts finished')
 
   fs.mkdir(path.join(__dirname, 'build'), () => {
@@ -246,12 +260,12 @@ function buildLayouts () {
 // This function copies the rest of the static assets to their subfolder in the
 // build directory.
 function copyStatic () {
+  console.log('[metalsmith] build/static started')
   console.time('[metalsmith] build/static finished')
   fs.mkdir(path.join(__dirname, 'build'), () => {
     fs.mkdir(path.join(__dirname, 'build', 'static'), () => {
       ncp(path.join(__dirname, 'static'), path.join(__dirname, 'build', 'static'), (err) => {
         if (err) { return console.error(err) }
-        fs.writeFileSync(path.join(__dirname, 'build', 'static', 'event-geo.json'), JSON.stringify(eventGeo()))
         console.timeEnd('[metalsmith] build/static finished')
       })
     })
@@ -269,8 +283,8 @@ function getSource (callback) {
           lts: latestVersion.lts(versions)
         },
         banner: {
-          visible: false,
-          content: ''
+          visible: true,
+          content: 'Important <a href="https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/">security releases</a>, please update now!'
         }
       }
     }

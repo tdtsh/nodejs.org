@@ -11,6 +11,8 @@
     "all-downloads": "All download options",
     "nightly": "Nightly builds",
     "chakracore-nightly": "Node-ChakraCore Nightly builds",
+    "previous": "Previous",
+    "next": "Next",
     "feeds": [
         {
             "link": "feed/blog.xml",
@@ -81,9 +83,9 @@
             "link": "docs/es6",
             "text": "ES6 and beyond"
         },
-        "faq": {
-            "link": "docs/faq",
-            "text": "FAQ"
+        "inspector": {
+            "link": "docs/inspector",
+            "text": "Inspector"
         },
         "api-lts": {
             "link": "/dist/latest-%ver-major%/docs/api",
@@ -150,18 +152,19 @@
             "link": "get-involved/development",
             "text": "Development"
         },
-        "events": {
-          "link": "get-involved/events",
-          "text": "Events"
-        },
         "conduct": {
             "link": "https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct",
             "text": "Conduct"
         }
     },
-    "security"   : { "link": "security",        "text": "Security" },
-    "blog"       : { "link": "blog",            "text": "News" },
-
+    "security": { 
+        "link": "security",
+        "text": "Security"
+    },
+    "blog": { 
+        "link": "blog",
+        "text": "News"
+    },
     "releases": {
         "title": "Release History",
         "downloads": "Downloads"

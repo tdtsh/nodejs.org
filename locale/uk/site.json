@@ -10,6 +10,8 @@
     "by": "від",
     "all-downloads": "Всі варіанти завантажень",
     "nightly": "Нічні збірки",
+    "previous": "Попередній",
+    "next": "Далі",
     "feeds": [
         {
             "link": "feed/blog.xml",
@@ -72,10 +74,6 @@
             "link": "docs/es6",
             "text": "ES6 і вище"
         },
-        "faq": {
-            "link": "docs/faq",
-            "text": "FAQ"
-        },
         "api-lts": {
             "link": "/dist/latest-%ver-major%/docs/api",
             "subtext": "LTS",
@@ -132,10 +130,6 @@
         "development": {
             "link": "get-involved/development",
             "text": "Розробка"
-        },
-        "events": {
-          "link": "get-involved/events",
-          "text": "Події"
         },
         "conduct": {
             "link": "https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct",

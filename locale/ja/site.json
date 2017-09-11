@@ -10,6 +10,8 @@
     "by": "by",
     "all-downloads": "All download options",
     "nightly": "Nightly builds",
+    "previous": "前",
+    "next": "次",
     "feeds": [
         {
             "link": "feed/blog.xml",
@@ -80,10 +82,6 @@
             "link": "docs/es6",
             "text": "ES6 について"
         },
-        "faq": {
-            "link": "docs/faq",
-            "text": "よくある質問"
-        },
         "api-lts": {
             "link": "/dist/latest-%ver-major%/docs/api",
             "subtext": "LTS",
@@ -148,10 +146,6 @@
         "development": {
             "link": "get-involved/development",
             "text": "開発体制"
-        },
-        "events": {
-          "link": "get-involved/events",
-          "text": "イベント"
         },
         "conduct": {
             "link": "https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct",

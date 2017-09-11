@@ -10,6 +10,8 @@
     "by": "por",
     "all-downloads": "Todas las opciones de descarga",
     "nightly": "Versiones nightly",
+    "previous": "Anterior",
+    "next": "Siguiente",
     "feeds": [
         {
             "link": "feed/blog.xml",
@@ -76,10 +78,6 @@
             "link": "docs/es6",
             "text": "ES6 y más allá"
         },
-        "faq": {
-            "link": "docs/faq",
-            "text": "FAQ"
-        },
         "api-lts": {
             "link": "/dist/latest-%ver-major%/docs/api",
             "subtext": "LTS",
@@ -136,10 +134,6 @@
         "development": {
             "link": "get-involved/development",
             "text": "Desarrollo"
-        },
-        "events": {
-          "link": "get-involved/events",
-          "text": "Eventos"
         },
         "conduct": {
             "link": "https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#code-of-conduct",

@@ -18,7 +18,7 @@ title: 패키지 매니저로 Node.js 설치하기
 * [NetBSD](#netbsd)
 * [nvm](#nvm)
 * [openSUSE and SLE](#opensuse-and-sle)
-* [OSX](#osx)
+* [macOS](#macos)
 * [SmartOS and illumos](#smartos-and-illumos)
 * [Void Linux](#void-linux)
 * [Windows](#windows)
@@ -41,7 +41,7 @@ title: 패키지 매니저로 Node.js 설치하기
 * [NetBSD](#netbsd)
 * [nvm](#nvm)
 * [openSUSE와 SLE](#opensuse-sle)
-* [OSX](#osx)
+* [macOS](#macos)
 * [SmartOS와 illumos](#smartos-illumos)
 * [Void Linux](#void-linux)
 * [Windows](#windows)
@@ -125,7 +125,6 @@ sudo apt-get install -y build-essential
 
 **Supported Ubuntu versions:**
 
-* **Ubuntu 12.04 LTS** (Precise Pangolin)
 * **Ubuntu 14.04 LTS** (Trusty Tahr)
 * **Ubuntu 16.04 LTS** (Xenial Xerus)
 
@@ -159,7 +158,6 @@ sudo apt-get install -y build-essential
 
 **지원하는 Ubuntu 버전:**
 
-* **Ubuntu 12.04 LTS** (Precise Pangolin)
 * **Ubuntu 14.04 LTS** (Trusty Tahr)
 * **Ubuntu 16.04 LTS** (Xenial Xerus)
 
@@ -187,7 +185,6 @@ Debian Sid(unstable), Jessie(testing), Wheezy(wheezy-backports)의
 <!--
 **Supported Linux Mint versions:**
 
-* **Linux Mint 13 "Maya"** (via Ubuntu 12.04 LTS)
 * **Linux Mint 17 "Qiana"** (via Ubuntu 14.04 LTS)
 * **Linux Mint 17.1 "Rebecca"** (via Ubuntu 14.04 LTS)
 * **Linux Mint 17.2 "Rafaela"** (via Ubuntu 14.04 LTS)
@@ -195,12 +192,10 @@ Debian Sid(unstable), Jessie(testing), Wheezy(wheezy-backports)의
 
 **Supported elementary OS versions:**
 
-* **elementary OS Luna** (via Ubuntu 12.04 LTS)
 * **elementary OS Freya** (via Ubuntu 14.04 LTS)
 
 **Supported Trisquel versions:**
 
-* **Trisquel 6 "Toutatis"** (via Ubuntu 12.04 LTS)
 * **Trisquel 7 "Belenos"** (via Ubuntu 14.04 LTS)
 
 **Supported BOSS versions:**
@@ -209,7 +204,6 @@ Debian Sid(unstable), Jessie(testing), Wheezy(wheezy-backports)의
 -->
 **지원하는 Linux Mint 버전:**
 
-* **Linux Mint 13 "Maya"** (Ubuntu 12.04 LTS에서)
 * **Linux Mint 17 "Qiana"** (Ubuntu 14.04 LTS에서)
 * **Linux Mint 17.1 "Rebecca"** (Ubuntu 14.04 LTS에서)
 * **Linux Mint 17.2 "Rafaela"** (Ubuntu 14.04 LTS에서)
@@ -217,12 +211,10 @@ Debian Sid(unstable), Jessie(testing), Wheezy(wheezy-backports)의
 
 **지원하는 elementary OS 버전:**
 
-* **elementary OS Luna** (Ubuntu 12.04 LTS에서)
 * **elementary OS Freya** (Ubuntu 14.04 LTS에서)
 
 **지원하는 Trisquel 버전:**
 
-* **Trisquel 6 "Toutatis"** (Ubuntu 12.04 LTS에서)
 * **Trisquel 7 "Belenos"** (Ubuntu 14.04 LTS에서)
 
 **지원하는 BOSS 버전:**
@@ -681,7 +673,7 @@ zypper install nodejs4
 ```
 
 <!--
-## OSX
+## macOS
 
 Simply download the [Macintosh Installer](http://nodejs.org/#download) direct from the [nodejs.org](http://nodejs.org) web site.
 
@@ -691,7 +683,7 @@ _If you want to download the package with bash:_
 curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
 ```
 -->
-## OSX
+## macOS
 
 [nodejs.org](http://nodejs.org) 웹사이트에서 [매킨토시 인스톨러](http://nodejs.org/#download)를 다운로드 받으세요.
 

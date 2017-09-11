@@ -2,42 +2,6 @@
 layout: about.hbs
 title: Working Groups
 ---
-# Working Groups
-There are 2 types of Working Groups:
-* [Top-Level Working Groups](#top-level-working-groups)
-* [Core Working Groups](#core-working-groups)
-
-# Top-Level Working Groups
-<!-- Information here should mostly mirror: https://github.com/nodejs/TSC/blob/master/WORKING_GROUPS.md -->
-
-Top-Level Working Groups are created by the
-[Technical Steering Committee (TSC)](https://github.com/nodejs/TSC#top-level-wgs-and-tlps).
-
-## Current Top-Level Working Groups
-* [Inclusivity](#inclusivity)
-
-### [Inclusivity](https://github.com/nodejs/inclusivity)
-The Inclusivity Working Group seeks to increase inclusivity and diversity for
-the Node.js project:
-
-* Increasing inclusivity means making the Node.js project a safe and friendly
-place for people from diverse backgrounds.
-* Increasing diversity means actively onboarding people from diverse backgrounds
-to the Node.js project and maintaining their participation.
-
-Responsibilities include:
-* Fostering a welcoming environment that ensures participants are valued and can
-feel confident contributing or joining discussions, regardless of any [aspect of
-their identity](https://github.com/nodejs/inclusivity/#list-of-responsibilities).
-* Proactively seeking and proposing concrete steps the project can take to increase
-inclusivity.
-* Serving as a resource for the development and enforcement of workflows that
-protect community members and projects from harassment and abuse.
-* Acknowledging and celebrating existing diversity accomplishments within the project
-while seeking to build upon them.
-* Identifying ways to measure diversity and inclusivity within the project and report
-them at regular intervals.
-
 # Core Working Groups
 <!-- Information here should mostly mirror: https://github.com/nodejs/node/blob/master/WORKING_GROUPS.md -->
 
@@ -57,8 +21,6 @@ Core Working Groups are created by the
 * [Benchmarking](#benchmarking)
 * [Post-mortem](#post-mortem)
 * [Intl](#intl)
-* [Documentation](#documentation)
-* [Testing](#testing)
 
 ### [Website](https://github.com/nodejs/nodejs.org)
 
@@ -138,11 +100,11 @@ Note that the i18n Working Groups are distinct from the [Intl](#Intl) Working Gr
 
 Each language community maintains its own membership.
 
-* [nodejs-ar - Arabic (اللغة العربية)](https://github.com/nodejs/nodejs-ar)
-* [nodejs-bg - Bulgarian (български език)](https://github.com/nodejs/nodejs-bg)
+* [nodejs-ar - Arabic (العَرَبِيَّة)](https://github.com/nodejs/nodejs-ar)
+* [nodejs-bg - Bulgarian (български)](https://github.com/nodejs/nodejs-bg)
 * [nodejs-bn - Bengali (বাংলা)](https://github.com/nodejs/nodejs-bn)
 * [nodejs-zh-CN - Chinese (中文)](https://github.com/nodejs/nodejs-zh-CN)
-* [nodejs-cs - Czech (Český Jazyk)](https://github.com/nodejs/nodejs-cs)
+* [nodejs-cs - Czech (Čeština)](https://github.com/nodejs/nodejs-cs)
 * [nodejs-da - Danish (Dansk)](https://github.com/nodejs/nodejs-da)
 * [nodejs-de - German (Deutsch)](https://github.com/nodejs/nodejs-de)
 * [nodejs-el - Greek (Ελληνικά)](https://github.com/nodejs/nodejs-el)
@@ -151,15 +113,15 @@ Each language community maintains its own membership.
 * [nodejs-fi - Finnish (Suomi)](https://github.com/nodejs/nodejs-fi)
 * [nodejs-fr - French (Français)](https://github.com/nodejs/nodejs-fr)
 * [nodejs-he - Hebrew (עברית)](https://github.com/nodejs/nodejs-he)
-* [nodejs-hi - Hindi (फिजी बात)](https://github.com/nodejs/nodejs-hi)
+* [nodejs-hi - Hindi (हिन्दी)](https://github.com/nodejs/nodejs-hi)
 * [nodejs-hu - Hungarian (Magyar)](https://github.com/nodejs/nodejs-hu)
 * [nodejs-id - Indonesian (Bahasa Indonesia)](https://github.com/nodejs/nodejs-id)
 * [nodejs-it - Italian (Italiano)](https://github.com/nodejs/nodejs-it)
 * [nodejs-ja - Japanese (日本語)](https://github.com/nodejs/nodejs-ja)
 * [nodejs-ka - Georgian (ქართული)](https://github.com/nodejs/nodejs-ka)
 * [nodejs-ko - Korean (한국어)](https://github.com/nodejs/nodejs-ko)
-* [nodejs-mk - Macedonian (Mакедонски)](https://github.com/nodejs/nodejs-mk)
-* [nodejs-ms - Malay (بهاس ملايو)](https://github.com/nodejs/nodejs-ms)
+* [nodejs-mk - Macedonian (Македонски)](https://github.com/nodejs/nodejs-mk)
+* [nodejs-ms - Malay (بهاس ملايو‎)](https://github.com/nodejs/nodejs-ms)
 * [nodejs-nl - Dutch (Nederlands)](https://github.com/nodejs/nodejs-nl)
 * [nodejs-no - Norwegian (Norsk)](https://github.com/nodejs/nodejs-no)
 * [nodejs-pl - Polish (Język Polski)](https://github.com/nodejs/nodejs-pl)
@@ -169,9 +131,9 @@ Each language community maintains its own membership.
 * [nodejs-sv - Swedish (Svenska)](https://github.com/nodejs/nodejs-sv)
 * [nodejs-ta - Tamil (தமிழ்)](https://github.com/nodejs/nodejs-ta)
 * [nodejs-tr - Turkish (Türkçe)](https://github.com/nodejs/nodejs-tr)
-* [nodejs-zh-TW - Taiwanese (Hō-ló)](https://github.com/nodejs/nodejs-zh-TW)
+* [nodejs-zh-TW - Taiwanese (國語)](https://github.com/nodejs/nodejs-zh-TW)
 * [nodejs-uk - Ukrainian (Українська)](https://github.com/nodejs/nodejs-uk)
-* [nodejs-vi - Vietnamese (Tiếng Việtnam)](https://github.com/nodejs/nodejs-vi)
+* [nodejs-vi - Vietnamese (Tiếng Việt)](https://github.com/nodejs/nodejs-vi)
 
 ### [Intl](https://github.com/nodejs/Intl)
 
@@ -264,30 +226,3 @@ Responsibilities include:
   to be generated when needed.
 * Defining and adding common structures to the dumps generated
   in order to support tools that want to introspect those dumps.
-
-### [Documentation](https://github.com/nodejs/docs)
-
-The Documentation Working Group exists to support the improvement of Node.js
-documentation, both in the core API documentation, and elsewhere, such as the
-Node.js website. Its intent is to work closely with the Evangelism, Website, and
-Intl Working Groups to make excellent documentation available and accessible
-to all.
-
-Responsibilities include:
-* Defining and maintaining documentation style and content standards.
-* Producing documentation in a format acceptable for the Website Working Group
-  to consume.
-* Ensuring that Node's documentation addresses a wide variety of audiences.
-* Creating and operating a process for documentation review that produces
-  quality documentation and avoids impeding the progress of Core work.
-
-### [Testing](https://github.com/nodejs/testing)
-
-The Node.js Testing Working Group's purpose is to extend and improve testing of
-the Node.js source code.
-
-Responsibilities include:
-* Coordinating an overall strategy for improving testing.
-* Documenting guidelines around tests.
-* Working with the Build Working Group to improve continuous integration.
-* Improving tooling for testing.

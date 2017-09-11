@@ -17,7 +17,7 @@ title: Installing Node.js via package manager
 * [NetBSD](#netbsd)
 * [nvm](#nvm)
 * [openSUSE and SLE](#opensuse-and-sle)
-* [OSX](#osx)
+* [macOS](#macos)
 * [SmartOS and illumos](#smartos-and-illumos)
 * [Void Linux](#void-linux)
 * [Windows](#windows)
@@ -35,7 +35,7 @@ pacman -S nodejs npm
 
 ## Debian and Ubuntu based Linux distributions
 
-Also including: **Linux Mint**, **Linux Mint Debian Edition (LMDE)**, **elementaryOS** and others.
+Also including: **Linux Mint**, **Linux Mint Debian Edition (LMDE)**, **elementaryOS**, **bash on Windows** and others.
 
 Node.js is available from the [NodeSource](https://nodesource.com) Debian and Ubuntu binary distributions repository (formerly [Chris Lea's](https://github.com/chrislea) Launchpad PPA). Support for this repository, along with its scripts, can be found on GitHub at [nodesource/distributions](https://github.com/nodesource/distributions).
 
@@ -46,10 +46,10 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-Alternatively, for Node.js v7:
+Alternatively, for Node.js 8:
 
 ```bash
-curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
@@ -69,7 +69,6 @@ sudo apt-get install -y build-essential
 
 **Supported Ubuntu versions:**
 
-* **Ubuntu 12.04 LTS** (Precise Pangolin)
 * **Ubuntu 14.04 LTS** (Trusty Tahr)
 * **Ubuntu 16.04 LTS** (Xenial Xerus)
 
@@ -87,7 +86,6 @@ The Node.js modules available in the distribution official repositories do not n
 
 **Supported Linux Mint versions:**
 
-* **Linux Mint 13 "Maya"** (via Ubuntu 12.04 LTS)
 * **Linux Mint 17 "Qiana"** (via Ubuntu 14.04 LTS)
 * **Linux Mint 17.1 "Rebecca"** (via Ubuntu 14.04 LTS)
 * **Linux Mint 17.2 "Rafaela"** (via Ubuntu 14.04 LTS)
@@ -95,12 +93,10 @@ The Node.js modules available in the distribution official repositories do not n
 
 **Supported elementary OS versions:**
 
-* **elementary OS Luna** (via Ubuntu 12.04 LTS)
 * **elementary OS Freya** (via Ubuntu 14.04 LTS)
 
 **Supported Trisquel versions:**
 
-* **Trisquel 6 "Toutatis"** (via Ubuntu 12.04 LTS)
 * **Trisquel 7 "Belenos"** (via Ubuntu 14.04 LTS)
 
 **Supported BOSS versions:**
@@ -115,28 +111,22 @@ Node.js is available from the [NodeSource](https://nodesource.com) Enterprise Li
 
 Note that the Node.js packages for EL 5 (RHEL5 and CentOS 5) depend on the **[EPEL](https://fedoraproject.org/wiki/EPEL)** repository being available. The setup script will check and provide instructions if it is not installed.
 
-Run as root on RHEL, CentOS or Fedora, for Node.js v6 LTS:
+On RHEL, CentOS or Fedora, for Node.js v6 LTS:
 
 ```bash
-curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
+curl --silent --location https://rpm.nodesource.com/setup_6.x | sudo bash -
 ```
 
-Alternatively for Node.js v7:
+Alternatively for Node.js 8:
 
 ```bash
-curl --silent --location https://rpm.nodesource.com/setup_7.x | bash -
+curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 ```
 
-Alternatively for Node.js 0.10:
+Then install:
 
 ```bash
-curl --silent --location https://rpm.nodesource.com/setup | bash -
-```
-
-Then install, as root:
-
-```bash
-yum -y install nodejs
+sudo yum -y install nodejs
 ```
 
 ***Optional***: install build tools
@@ -144,8 +134,8 @@ yum -y install nodejs
 To compile and install native addons from npm you may also need to install build tools:
 
 ```bash
-yum install gcc-c++ make
-# or: yum groupinstall 'Development Tools'
+sudo yum install gcc-c++ make
+# or: sudo yum groupinstall 'Development Tools'
 ```
 
 **Available architectures:**
@@ -211,14 +201,16 @@ In a hurry for the latest updates?  [Grab them from epel-testing.](https://fedor
 * **RHEL 6** (i686/x86_64)
 * **RHEL 7** (x86_64)
 
+RHEL 6 is no longer supported through EPEL, you can however use [Red Hat Software Collections](https://www.softwarecollections.org/en/scls/?search=nodejs).
+
 Additionally, versions of **CentOS** and **Scientific Linux** corresponding to the above RHEL versions are also officially supported by all EPEL packages, including nodejs.  Amazon Linux is not officially supported by EPEL due to significant incompatibilities previously reported to the epel-devel mailing list, however you might find that nodejs at least still works.
 
 **Supported Fedora versions:**
 
-* **Fedora Rawhide** (i686/x86_64/armv7hl/aarch64)
+* **Fedora Rawhide** (i686/x86_64/armv7hl/aarch64/ppc64/ppc64le/s390x)
+* **Fedora 26** (i686/x86_64/armv7hl/aarch64/ppc64/ppc64le)
 * **Fedora 25** (i686/x86_64/armv7hl)
 * **Fedora 24** (i686/x86_64/armv7hl)
-* **Fedora 23** (i686/x86_64/armv7hl)
 
 
 ## FreeBSD and OpenBSD
@@ -334,7 +326,7 @@ For example, to install Node.js 4.x on openSUSE Leap 42.2, run the following as 
 zypper install nodejs4
 ```
 
-## OSX
+## macOS
 
 Simply download the [Macintosh Installer](http://nodejs.org/#download) direct from the [nodejs.org](http://nodejs.org) web site.
 
