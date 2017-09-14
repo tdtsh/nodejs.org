@@ -49,6 +49,9 @@ Node.js財団の使命は、Node.jsの成功を共に目指すエコシステム
 - [設立証明書](http://f.cl.ly/items/2b1b1o0v1e1u2i1L2w1a/nodejs-foundation-certificate-of-incorporation-2014-august-01.pdf)
 - [商標に関するガイドライン](https://nodejs.org/static/documents/trademark-policy.pdf)
 
+## Executive Director Summary of Board Meeting
+- [2017-06-27](https://github.com/nodejs/board/blob/master/exec-summary/nodejs-foundation-exec-summary-2017-06-27.md)
+
 ## 運営委員会ミーティング議事録
 - [2015-07-27](/static/documents/minutes/nodejs-foundation-board-meeting-2015-07-27.pdf)
 - [2015-08-31](/static/documents/minutes/nodejs-foundation-board-meeting-2015-08-31.pdf)
@@ -64,4 +67,5 @@ Node.js財団の使命は、Node.jsの成功を共に目指すエコシステム
 
 ## お問い合わせ
 
-Node.js&reg; 商標の使用に関するお問合せは、電子メール [trademark@nodejs.org](mailto:trademark@nodejs.org?subject=Trademark) にて。
+Node.js&reg; 商標の使用に関するお問合せは、
+電子メール [trademark@nodejs.org](mailto:trademark@nodejs.org?subject=Trademark) にて。

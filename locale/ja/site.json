@@ -10,6 +10,7 @@
     "by": "by",
     "all-downloads": "All download options",
     "nightly": "Nightly builds",
+    "chakracore-nightly": "Node-ChakraCore Nightly builds",
     "previous": "前",
     "next": "次",
     "feeds": [
@@ -82,6 +83,10 @@
             "link": "docs/es6",
             "text": "ES6 について"
         },
+        "inspector": {
+            "link": "docs/inspector",
+            "text": "Inspector"
+        },
         "api-lts": {
             "link": "/dist/latest-%ver-major%/docs/api",
             "subtext": "LTS",
@@ -152,9 +157,14 @@
             "text": "行動規範"
         }
     },
-    "security"   : { "link": "security",        "text": "セキュリティ" },
-    "blog"       : { "link": "blog",            "text": "ニュース" },
-
+    "security": {
+        "link": "security",
+        "text": "セキュリティ"
+    },
+    "blog": {
+        "link": "blog",
+        "text": "ニュース"
+    },
     "releases": {
         "title": "過去のリリース",
         "downloads": "ダウンロード"
